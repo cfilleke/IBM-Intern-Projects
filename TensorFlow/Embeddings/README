@@ -1,0 +1,22 @@
+README for Embeddings Program
+
+# Author: Christopher F. S. Maligec 250 870 443
+
+This program takes about 550 seconds (9 minutes) to run.
+In order to obtain this short runtime, the program has been set to work with a vocabulary size of 500 words and word vectors of 20 dimensions.
+
+Files Set-up:
+Create a folder for the program that has the following subfolders:
+clustering (with subfolders dp, sk, st),
+data,
+graphs (with subfolders dp, sk, st),
+projector (with subfolders dp, sk, st),
+src,
+timings
+
+Please replace the absolute path, main_path, at the top of main.py and graph_analysis.py with your own absolute or relative path.
+
+Run program by typing `python main.py`
+
+The embeddings can be viewed by uploading the vectors and metadata tsv files (located in the projector folder) at https://projector.tensorflow.org/
+You can sphereize the data to see the word vectors better and can also search for a word and see its closest neighbours.
